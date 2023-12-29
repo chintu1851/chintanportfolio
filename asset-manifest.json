@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chintanportfolio/static/css/main.97e5b513.css",
+    "main.js": "/chintanportfolio/static/js/main.f2578d15.js",
+    "static/js/787.7da95b79.chunk.js": "/chintanportfolio/static/js/787.7da95b79.chunk.js",
+    "index.html": "/chintanportfolio/index.html",
+    "main.97e5b513.css.map": "/chintanportfolio/static/css/main.97e5b513.css.map",
+    "main.f2578d15.js.map": "/chintanportfolio/static/js/main.f2578d15.js.map",
+    "787.7da95b79.chunk.js.map": "/chintanportfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97e5b513.css",
+    "static/js/main.f2578d15.js"
+  ]
+}
