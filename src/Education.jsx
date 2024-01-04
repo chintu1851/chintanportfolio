@@ -7,7 +7,7 @@ const Education = () => {
             <Header></Header>
             <h1 className='skillsh1'>Education</h1>
             <div className='mained'>
-                <div>
+                <div className='vcc'>
                     <div className='vlr1'>
 
                     </div>
@@ -36,7 +36,6 @@ const Education = () => {
 
                     </div>
                 </div>
-
                 <div className='maineducationdiv'>
                     <div className='educationdiv'>
                         <h2 style={{ color: "brown" }}>Ontario College Graduate Certificate</h2>

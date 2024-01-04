@@ -27,7 +27,6 @@ body {
   align-items: center;
   justify-content: center;
   margin-right: 80px;
-
 }
 
 .links a {
@@ -111,6 +110,8 @@ body {
 
 .description {
   width: 650px;
+  margin-left: 10px;
+
 }
 
 .aboutdiv button {
@@ -137,6 +138,7 @@ body {
 .social {
   text-align: center;
   margin-top: 60px;
+
 }
 
 .social img {
@@ -148,6 +150,7 @@ body {
 
 .maindiv {
   margin-top: 130px;
+  width: 100%;
 }
 
 .headempty {
@@ -212,11 +215,16 @@ body {
 }
 
 .skillsmain {
-  display: grid;
+  /* display: grid;
   grid-template-columns: auto auto auto;
   padding: 20px;
   justify-content: center;
+  align-items: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .skillsdiv {
@@ -232,11 +240,16 @@ body {
 }
 
 .mainproject {
-  display: grid;
+  /* display: grid;
   grid-template-columns: auto auto;
   padding: 20px;
   justify-content: center;
+  align-items: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .projectsection {
@@ -295,6 +308,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 50%;
   margin-left: 70px;
   margin-bottom: 50px;
@@ -307,11 +321,11 @@ body {
 }
 
 .educationdiv {
-  height: 220px;
+
   width: 100%;
   text-align: start;
   margin-top: 50px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 20px;
   box-shadow: 10px 7px 7px rgb(201, 193, 193);
   border: 1px rgb(196, 189, 189) solid;
@@ -321,6 +335,7 @@ body {
 .contactsocial {
   text-align: center;
   margin-left: 100px;
+  height: 490px;
 }
 
 .card {
@@ -330,16 +345,18 @@ body {
   padding: 35px;
   width: 90%;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 20px
 }
 
 .formcard {
   box-shadow: 10px 7px 7px rgb(201, 193, 193);
-   border: 1px rgb(196, 189, 189) solid;
+  border: 1px rgb(196, 189, 189) solid;
   transition: 0.3s;
   padding: 20px 40px;
   background-color: #01548b;
+  height: 490px;
   border-radius: 20px;
+
 }
 
 .contactsocial img {
@@ -394,16 +411,19 @@ body {
 .maincontact {
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
   margin-top: 180px;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .verticleline {
   border-right: 2px solid #01548b;
   height: 500px;
   margin-left: 100px;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 input[type="text"],
@@ -419,8 +439,6 @@ textarea {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   border: none;
   margin-top: 20px;
-
-
 }
 
 .formcard button {
@@ -451,5 +469,347 @@ textarea {
 
   100% {
     opacity: 1;
+  }
+}
+
+.menubar {
+  display: none;
+}
+
+/* .menuitem {
+  display: none;
+} */
+
+.showmenu a {
+  display: none;
+}
+
+.showclose {
+  display: none;
+}
+
+.menuclose {
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .cdlogo {
+    height: 70px;
+    margin-left: 8px;
+    margin-top: 20px;
+    transition: width 1s, height 1s;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+  }
+
+  .cdlogo:hover {
+    height: 70px;
+  }
+
+  .menubar {
+    display: block;
+    position: fixed;
+    top: 120px;
+    left: 50px;
+    color: #01548b;
+    height: 30px
+  }
+
+  .menuclose {
+    display: none;
+  }
+
+  .close {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 212px;
+    color: white;
+    background-color: black;
+    padding: 6px;
+    border-radius: 16%;
+    height: 22px
+  }
+
+  .menuitem {
+    display: block;
+    position: absolute;
+    top: 140px;
+    background-color: #01548b;
+    height: 400px;
+    width: 130px;
+    padding: 50px;
+    margin: 0;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    text-align: left;
+    align-items: center;
+
+  }
+
+  .menuitem a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
+
+  .headempty {
+    display: none;
+  }
+
+  .headempty1 {
+    display: none;
+  }
+
+  .nomenu {
+    display: none;
+  }
+
+  .resclose {
+    display: none;
+  }
+
+  .showburger {
+    display: none;
+  }
+
+  .maincontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    margin-top: 180px;
+    text-align: center;
+
+
+  }
+
+  .description {
+    width: 550px;
+    padding: 1em;
+    margin-left: 7em;
+  }
+
+  .positionfixed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 60px;
+    padding-left: 20px;
+    height: fit-content;
+
+  }
+
+  .maintexth1 {
+    font-weight: bolder;
+    font-size: 32px;
+    background: -webkit-linear-gradient(#505050, #01548b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: blink 3s linear infinite;
+    text-decoration: none;
+
+  }
+
+  .maintext {
+    font-weight: bolder;
+    font-size: 32px;
+    /* margin: 20px auto; */
+
+  }
+
+  .maincss {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 40px;
+  }
+
+  .cimage {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+  }
+
+  .cdimage {
+    padding: 50px;
+    margin-right: 200px;
+
+  }
+
+  .maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 1em;
+  }
+
+  .aboutdiv {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+  }
+
+  .aboutdiv p {
+    font-size: 15px;
+    background-color: #01548b;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    /* text-align: center;
+  margin-top: 30px;
+  margin: 10px 70px; */
+  }
+
+  .social {
+    text-align: center;
+
+  }
+
+  .social img {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+  }
+
+  .verticleline {
+    display: none;
+  }
+
+  .empty1 {
+    display: none;
+
+  }
+
+  .aboutimage img {
+    margin-top: 200px;
+    text-align: center;
+
+  }
+
+  .aboutm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutimage {
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+  }
+
+  .aboutme {
+    text-align: start;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .aboutme h1 {
+    text-align: center;
+  }
+
+  .aboutme p {
+    font-size: medium;
+    font-weight: 600;
+  }
+
+  .contactsocial {
+    text-align: center;
+    height: 490px;
+    margin-left: 0px;
+  }
+
+  .formcard {
+    box-shadow: 10px 7px 7px rgb(201, 193, 193);
+    border: 1px rgb(196, 189, 189) solid;
+    transition: 0.3s;
+    padding: 20px 20px;
+    background-color: #01548b;
+    width: auto;
+    border-radius: 20px;
+
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="text"],
+  input[type="name"],
+  textarea {
+    width: 300px;
+    padding: 0.9em;
+    margin-bottom: 2em;
+    font-size: medium;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    margin-top: 20px;
+  }
+
+  .card {
+    box-shadow: 10px 7px 7px rgb(201, 193, 193);
+    border: 1px rgb(196, 189, 189) solid;
+    transition: 0.3s;
+    padding: 15px;
+    width: auto;
+    background-color: white;
+    border-radius: 20px
+  }
+
+  .vcc {
+    display: none;
+  }
+
+  .maineducationdiv {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    /* flex-wrap: wrap; */
+    width: 70%;
+    margin-left: 0px;
+  }
+
+  .educationdiv {
+    margin-top: 50px;
+    padding: 20px;
+    height: fit-content;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 10px 7px 7px rgb(201, 193, 193);
+    border: 1px rgb(196, 189, 189) solid;
+
+  }
+
+  .mained {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+
   }
 }
