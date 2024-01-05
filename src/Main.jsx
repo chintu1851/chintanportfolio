@@ -15,7 +15,7 @@ const Main = () => {
                     </h1>
                 </div>
                 <div className='cdimage'>
-                    <img src='./cdlogo.png' alt='cimage' className='cimage'></img>
+                    <img src='./cimage.jpg' alt='cimage' className='cimage'></img>
                 </div>
             </div>
             <div className='aboutdiv'>
