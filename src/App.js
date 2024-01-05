@@ -20,6 +20,7 @@ const App = () => {
         <Route path="/education" element = {<Education></Education>}></Route>
       </Routes>
     </Router>
+    
   )
 }
 
