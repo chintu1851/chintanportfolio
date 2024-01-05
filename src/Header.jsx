@@ -31,35 +31,35 @@ const Header = () => {
           <div className={closeClick ? 'showburger' : ''}>
             <ul className={`showmenu ${menu ? 'menuitem' : ''}`}>
               <FontAwesomeIcon icon={faTimes} onClick={closeCall} className={` showclose ${menu ? 'close' : ''}`} />
-              <li>
-                <Link to='/'>Home</Link>
-              </li>
-              <li>
-                <Link to='/about'>About</Link>
-              </li>
-              <li>
-                <Link to='/skills'>Skills</Link>
-              </li>
-              <li>
-                <Link to='/education'>Education</Link>
-              </li>
-              <li>
-                <Link to='/projects'>Projects</Link>
-              </li>
-              <li>
-                <Link to='/contact'>Contact</Link>
-              </li>
+
+              <Link to='/' onClick={closeCall}>Home</Link>
+
+
+              <Link to='/about' onClick={closeCall}>About</Link>
+
+
+              <Link to='/skills' onClick={closeCall}>Skills</Link>
+
+
+              <Link to='/education' onClick={closeCall}>Education</Link>
+
+
+              <Link to='/projects' onClick={closeCall}>Projects</Link>
+
+
+              <Link to='/contact' onClick={closeCall}>Contact</Link>
+
             </ul>
           </div>
         </div>
       </div>
       <div className='links'>
-        <Link to='/'>Home</Link>
-        <Link to='/about'>About</Link>
-        <Link to='/skills'>Skills</Link>
-        <Link to='/education'>Education</Link>
-        <Link to='/projects'>Projects</Link>
-        <Link to='/contact'>Contact</Link>
+        <Link to='/' onClick={closeCall}>Home</Link>
+        <Link to='/about' onClick={closeCall}>About</Link>
+        <Link to='/skills' onClick={closeCall}>Skills</Link>
+        <Link to='/education' onClick={closeCall}>Education</Link>
+        <Link to='/projects' onClick={closeCall}>Projects</Link>
+        <Link to='/contact' onClick={closeCall}>Contact</Link>
       </div>
     </div>
   );
