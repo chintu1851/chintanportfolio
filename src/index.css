@@ -7,7 +7,808 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mainheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-items: center;
+  height: 70px;
+  margin-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  position: fixed;
+  padding-bottom: 30px;
+}
+
+.links {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+}
+
+.links a {
+  margin: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 21px;
+  color: #202F42;
+}
+
+.links a:hover {
+  border-bottom: 2px solid #1731db;
+  border-top: 2px solid #1731db;
+  transition: all 0.2s linear;
+  padding: 3px;
+
+}
+
+.grey {
+  width: 20%
+}
+
+.maintexth1 {
+  font-weight: bolder;
+  font-size: 52px;
+  background: -webkit-linear-gradient(#505050, #01548b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: blink 3s linear infinite;
+}
+
+.aboutdiv {
+  font-size: 20px;
+  background-color: #01548b;
+  padding: 30px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 60px;
+  margin: 20px 100px;
+}
+
+.aboutdiv p {
+  text-align: start;
+
+}
+
+.maintext {
+  font-weight: bolder;
+  font-size: 52px;
+}
+
+.cimage {
+  width: 100%;
+  height: 400px;
+  border-radius: 50px;
+}
+
+.maincss {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.cdimage {
+  margin-right: 100px;
+}
+
+.cdlogo {
+  height: 100px;
+  margin-left: 12px;
+  margin-top: 20px;
+  transition: width 1s, height 1s;
+}
+
+.cdlogo:hover {
+  height: 110px;
+}
+
+.description {
+  width: 650px;
+  margin-left: 10px;
+
+}
+
+.aboutdiv button {
+  padding: 15px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  background-color: white;
+  color: #01548b;
+  transition: 0.4s;
+}
+
+.aboutdiv button:hover {
+  color: white;
+  background-color: rgb(238, 109, 76);
+}
+
+.social {
+  text-align: center;
+  margin-top: 60px;
+
+}
+
+.social img {
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+
+}
+
+.maindiv {
+  margin-top: 130px;
+  width: 100%;
+}
+
+.headempty {
+  background-color: #01548b;
+  height: 20px;
+  width: 500px;
+  top: 50px;
+  left: 50px;
+  margin-top: 540px;
+  position: absolute;
+}
+
+.headempty1 {
+  background-color: #01548b;
+  height: 420px;
+  width: 20px;
+  top: 80px;
+  left: 50px;
+  margin-top: 90px;
+  margin-right: 30px;
+  position: absolute;
+}
+
+.empty1 {
+  background-color: #01548b;
+  height: 300px;
+  margin-top: 130px;
+}
+
+.aboutimage img {
+  width: 360px;
+  height: 290px;
+  border-radius: 10%;
+  margin-top: -170px;
+
+}
+
+.aboutme p {
+  font-size: large;
+  font-weight: 600;
+}
+
+.aboutme h1 {
+  color: #01548b;
+}
+
+.aboutimage {
+  text-align: center;
+}
+
+.aboutme {
+  background-color: rgb(233, 230, 230);
+  margin: 20px 190px;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.skillsh1 {
+  color: #01548b;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.skillsmain {
+  /* display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skillsdiv {
+  background-color: white(233, 230, 230);
+  height: 220px;
+  width: 280px;
+  padding-top: 20px;
+  margin: 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 7px 7px rgb(201, 193, 193);
+  border: 1px rgb(196, 189, 189) solid;
+}
+
+.mainproject {
+  /* display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projectsection {
+  background-color: white(233, 230, 230);
+  height: 250px;
+  width: 480px;
+  padding-top: 20px;
+  margin: 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 7px 7px rgb(201, 193, 193);
+  border: 1px rgb(196, 189, 189) solid;
+
+}
+
+.skillsdiv h2 {
+  color: #01548b;
+}
+
+.skillsdiv img {
+  text-align: center;
+  width: 100px;
+  margin-top: 15px;
+}
+
+.projectsection img {
+  text-align: center;
+  width: 100px;
+  margin-top: 15px;
+}
+
+.projectsection button {
+  padding: 15px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 45px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  background-color: #01548b;
+  color: white;
+  transition: width 50s, height 7s;
+}
+
+.projectsection button:hover {
+  color: white;
+  background-color: rgb(238, 109, 76);
+  height: 55px;
+  width: 160px;
+}
+
+.maineducationdiv {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+
+.mained {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.educationdiv {
+
+  width: 100%;
+  text-align: start;
+  margin-top: 50px;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 10px 7px 7px rgb(201, 193, 193);
+  border: 1px rgb(196, 189, 189) solid;
+
+}
+
+.contactsocial {
+  text-align: center;
+  margin-left: 100px;
+  height: 490px;
+}
+
+.card {
+  box-shadow: 10px 7px 7px rgb(201, 193, 193);
+  border: 1px rgb(196, 189, 189) solid;
+  transition: 0.3s;
+  padding: 35px;
+  width: 90%;
+  background-color: white;
+  border-radius: 20px
+}
+
+.formcard {
+  box-shadow: 10px 7px 7px rgb(201, 193, 193);
+  border: 1px rgb(196, 189, 189) solid;
+  transition: 0.3s;
+  padding: 20px 40px;
+  background-color: #01548b;
+  height: 490px;
+  border-radius: 20px;
+
+}
+
+.contactsocial img {
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+
+}
+
+.contactsocial h3 {
+  text-align: start;
+  margin: 15px;
+}
+
+.vl {
+  border-left: 6px solid #01548b;
+  border-top: 6px #01548b solid;
+  height: 270px;
+  margin-left: 300px;
+  margin-top: 55px;
+
+}
+
+.vlr {
+  border-left: 26px solid #01548b;
+  height: 20px;
+  margin-left: 290px;
+}
+
+.vl2 {
+  border-left: 6px solid #01548b;
+  height: 290px;
+  margin-left: 300px;
+
+}
+
+.vl3 {
+  border-left: 6px solid #01548b;
+  height: 300px;
+  margin-left: 300px;
+
+}
+
+.vl4 {
+  border-left: 6px solid #01548b;
+  border-bottom: #01548b 6px solid;
+  height: 265px;
+  margin-left: 300px;
+
+}
+
+.maincontact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+  margin-top: 180px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.verticleline {
+  border-right: 2px solid #01548b;
+  height: 500px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="text"],
+input[type="name"],
+textarea {
+  width: 500px;
+  padding: 0.9em;
+  margin-bottom: 2em;
+  font-size: medium;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border: none;
+  margin-top: 20px;
+}
+
+.formcard button {
+  padding: 15px 50px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: #01548b;
+  transition: 0.4s;
+  background-color: white;
+  transition: width 50s, height 7s;
+}
+
+.formcard button:hover {
+  color: white;
+  background-color: rgb(238, 109, 76);
+}
+
+@keyframes blink {
+  20% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.menubar {
+  display: none;
+}
+
+/* .menuitem {
+  display: none;
+} */
+
+.showmenu a {
+  display: none;
+}
+
+.showclose {
+  display: none;
+}
+
+.menuclose {
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .cdlogo {
+    height: 70px;
+    margin-left: 8px;
+    margin-top: 20px;
+    transition: width 1s, height 1s;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+  }
+
+  .cdlogo:hover {
+    height: 70px;
+  }
+
+  .menubar {
+    display: block;
+    position: fixed;
+    top: 120px;
+    left: 50px;
+    color: #01548b;
+    height: 30px
+  }
+
+  .menuclose {
+    display: none;
+  }
+
+  .close {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 212px;
+    color: white;
+    background-color: black;
+    padding: 6px;
+    border-radius: 16%;
+    height: 22px
+  }
+
+  .menuitem {
+    display: block;
+    position: absolute;
+    top: 140px;
+    background-color: #01548b;
+    height: 400px;
+    width: 130px;
+    padding: 50px;
+    margin: 0;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    text-align: left;
+    align-items: center;
+
+  }
+
+  .menuitem a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
+
+  .headempty {
+    display: none;
+  }
+
+  .headempty1 {
+    display: none;
+  }
+
+  .nomenu {
+    display: none;
+  }
+
+  .resclose {
+    display: none;
+  }
+
+  .showburger {
+    display: none;
+  }
+
+  .maincontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    margin-top: 180px;
+    text-align: center;
+
+
+  }
+
+  .description {
+    width: 550px;
+    padding: 1em;
+    margin-left: 7em;
+  }
+
+  .positionfixed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 60px;
+    padding-left: 20px;
+    height: fit-content;
+
+  }
+
+  .maintexth1 {
+    font-weight: bolder;
+    font-size: 32px;
+    background: -webkit-linear-gradient(#505050, #01548b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: blink 3s linear infinite;
+    text-decoration: none;
+
+  }
+
+  .maintext {
+    font-weight: bolder;
+    font-size: 32px;
+    /* margin: 20px auto; */
+
+  }
+
+  .maincss {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .cimage {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+  }
+
+  .cdimage {
+    padding: 50px;
+    margin-right: 200px;
+
+  }
+
+  .maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 1em;
+  }
+
+  .aboutdiv {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+  }
+
+  .aboutdiv p {
+    font-size: 15px;
+    background-color: #01548b;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    /* text-align: center;
+  margin-top: 30px;
+  margin: 10px 70px; */
+  }
+
+  .social {
+    text-align: center;
+
+  }
+
+  .social img {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+  }
+
+  .verticleline {
+    display: none;
+  }
+
+  .empty1 {
+    display: none;
+
+  }
+
+  .aboutimage img {
+    margin-top: 200px;
+    text-align: center;
+
+  }
+
+  .aboutm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutimage {
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+  }
+
+  .aboutme {
+    text-align: start;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .aboutme h1 {
+    text-align: center;
+  }
+
+  .aboutme p {
+    font-size: medium;
+    font-weight: 600;
+  }
+
+  .contactsocial {
+    text-align: center;
+    height: 490px;
+    margin-left: 0px;
+  }
+
+  .formcard {
+    box-shadow: 10px 7px 7px rgb(201, 193, 193);
+    border: 1px rgb(196, 189, 189) solid;
+    transition: 0.3s;
+    padding: 20px 20px;
+    background-color: #01548b;
+    width: auto;
+    border-radius: 20px;
+
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="text"],
+  input[type="name"],
+  textarea {
+    width: 300px;
+    padding: 0.9em;
+    margin-bottom: 2em;
+    font-size: medium;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    margin-top: 20px;
+  }
+
+  .card {
+    box-shadow: 10px 7px 7px rgb(201, 193, 193);
+    border: 1px rgb(196, 189, 189) solid;
+    transition: 0.3s;
+    padding: 15px;
+    width: auto;
+    background-color: white;
+    border-radius: 20px
+  }
+
+  .vcc {
+    display: none;
+  }
+
+  .maineducationdiv {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    /* flex-wrap: wrap; */
+    width: 70%;
+    margin-left: 0px;
+  }
+
+  .educationdiv {
+    margin-top: 50px;
+    padding: 20px;
+    height: fit-content;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 10px 7px 7px rgb(201, 193, 193);
+    border: 1px rgb(196, 189, 189) solid;
+
+  }
+
+  .mained {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+  }
 }
