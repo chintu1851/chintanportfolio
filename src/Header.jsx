@@ -1,53 +1,65 @@
 import React, { useState } from 'react';
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
-  const [menu, setmenu] = useState(false);
-  const [closeclick, setClose] = useState(false);
+  const [menu, setMenu] = useState(false);
+  const [closeClick, setClose] = useState(false);
 
-  const closecall = () => {
-    setClose(true)
-  }
-  const menuclick = () => {
-    setmenu(true)
-    setClose(false)
-  }
+  const closeCall = () => {
+    setClose(true);
+    setMenu(false); // Close menu when link clicked
+  };
+
+  const menuClick = () => {
+    setMenu(true);
+    setClose(false); // Open menu when link clicked
+  };
 
   return (
     <div className='mainheader'>
       <div className='positionfixed'>
         <img src='./cdlogo.png' alt='logo' className='cdlogo' />
-        <div >
+        <div>
           <FontAwesomeIcon
             className={"menubar"}
             icon={faBars}
-            onClick={menuclick}
+            onClick={menuClick}
           />
-          <div className={closeclick ? 'showburger' : ''}>
+          <div className={closeClick ? 'showburger' : ''}>
             <ul className={`showmenu ${menu ? 'menuitem' : ''}`}>
-              <FontAwesomeIcon icon={faXmark} onClick={closecall} className={` showclose ${menu ? 'close' : ''}`} />
-              <a href='/'>Home</a>
-              <a href='/about'>About</a>
-              <a href='/skills'>Skills</a>
-              <a href='/education'>Education</a>
-              <a href='/projects'>Projects</a>
-              <a href='/contact'>Contact</a>
-
+              <FontAwesomeIcon icon={faTimes} onClick={closeCall} className={` showclose ${menu ? 'close' : ''}`} />
+              <li>
+                <Link to='/'>Home</Link>
+              </li>
+              <li>
+                <Link to='/about'>About</Link>
+              </li>
+              <li>
+                <Link to='/skills'>Skills</Link>
+              </li>
+              <li>
+                <Link to='/education'>Education</Link>
+              </li>
+              <li>
+                <Link to='/projects'>Projects</Link>
+              </li>
+              <li>
+                <Link to='/contact'>Contact</Link>
+              </li>
             </ul>
           </div>
         </div>
-
       </div>
       <div className='links'>
-        <a href='/'>Home</a>
-        <a href='/about'>About</a>
-        <a href='/skills'>Skills</a>
-        <a href='/education'>Education</a>
-        <a href='/projects'>Projects</a>
-        <a href='/contact'>Contact</a>
+        <Link to='/'>Home</Link>
+        <Link to='/about'>About</Link>
+        <Link to='/skills'>Skills</Link>
+        <Link to='/education'>Education</Link>
+        <Link to='/projects'>Projects</Link>
+        <Link to='/contact'>Contact</Link>
       </div>
     </div>
   );
