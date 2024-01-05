@@ -11,18 +11,18 @@ import Education from './Education'
 const App = () => {
   return (
     
-    <Router>
-      <Routes>
-        <Route path="/" element = {<Home></Home>}></Route>
-        <Route path="/projects" element = {<Projects></Projects>}></Route>
-        <Route path="/skills" element = {<Skills></Skills>}></Route>
-        <Route path="/about" element = {<About></About>}></Route>
-        <Route path="/contact" element = {<Contact></Contact>}></Route>
-        <Route path="/education" element = {<Education></Education>}></Route>
-      </Routes>
-    </Router>
+    // <Router>
+    //   <Routes>
+    //     <Route path="/" element = {<Home></Home>}></Route>
+    //     <Route path="/projects" element = {<Projects></Projects>}></Route>
+    //     <Route path="/skills" element = {<Skills></Skills>}></Route>
+    //     <Route path="/about" element = {<About></About>}></Route>
+    //     <Route path="/contact" element = {<Contact></Contact>}></Route>
+    //     <Route path="/education" element = {<Education></Education>}></Route>
+    //   </Routes>
+    // </Router>
     
-    /* <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/education" element={<Education />} />
       </Routes>
     </Router>
-     */
+     
   )
 }
 
