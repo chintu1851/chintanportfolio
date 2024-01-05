@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://github.com/chintu1851/chintanportfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,6 +43,7 @@
     ]
   },
   "devDependencies": {
+      "@types/testing-library__jest-dom": "^6.0.0",
     "gh-pages": "^6.1.1"
   }
 }

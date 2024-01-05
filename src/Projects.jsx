@@ -37,7 +37,7 @@ const Projects = () => {
         </div>
         <div className='projectsection'>
           <img src='html.png' alt=''></img>
-          <h3>The New Yorker - Responsive Website (Replicate)</h3>
+          <h3>The New Yorker(Responsive)</h3>
           <a href='https://github.com/chintu1851/responsive-design_newyorker'> <button>View On Github</button></a>
         </div>
         <div className='projectsection'>

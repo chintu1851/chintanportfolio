@@ -632,7 +632,6 @@ textarea {
   .maincss {
     display: flex;
     flex-direction: column;
-    justify-content: start;
     padding: 40px;
   }
 
