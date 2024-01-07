@@ -9,7 +9,8 @@ const About = () => {
                 <div className='empty1'>
                 </div>
                 <div className='aboutimage'>
-                    <img src='chintan.jpg' alt='chintu'></img>
+                
+                    <img src='https://res-console.cloudinary.com/dac8tennr/media_explorer_thumbnails/1866614699115e6ad71b2c104973d458/detailed' alt='chintu'></img>
                 </div>
                 <div className='aboutme'>
                     <h1>About Me</h1>
