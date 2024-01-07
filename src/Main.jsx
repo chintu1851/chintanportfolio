@@ -1,11 +1,10 @@
 import { useNavigate } from 'react-router-dom';
-import Header from './Header';
+
 const Main = () => {
 
     const navigate = useNavigate()
     return (
         <div>
-        <Header></Header>
             <div className="maindiv">
                 <div className='maincss'>
                     <div className='headempty'> </div>
@@ -18,7 +17,8 @@ const Main = () => {
                         </h1>
                     </div>
                     <div className='cdimage'>
-                        <img src='./cimage.jpg' alt='cimage' className='cimage'></img>
+                   
+                        <img src='./public/cimage.JPG' alt='cimage' className='cimage'></img>
                     </div>
                 </div>
                 <div className='aboutdiv'>

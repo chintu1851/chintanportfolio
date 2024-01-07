@@ -7,7 +7,6 @@ import Skills from './Skills';
 import About from './About';
 import Contact from './Contact';
 import Education from './Education'
-import Main from './Main';
 
 
 const App = () => {
@@ -26,7 +25,7 @@ const App = () => {
     
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/about" element={<About />} />
