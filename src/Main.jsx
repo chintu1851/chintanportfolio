@@ -1,12 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 import Header from './Header';
-
 const Main = () => {
 
     const navigate = useNavigate()
     return (
         <div>
-            <Header></Header>
+        <Header></Header>
             <div className="maindiv">
                 <div className='maincss'>
                     <div className='headempty'> </div>
