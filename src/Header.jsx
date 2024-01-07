@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <div className='mainheader'>
       <div className='positionfixed'>
-        <img src='./cdlogo.png' alt='logo' className='cdlogo' />
+        <img src='https://res-console.cloudinary.com/dac8tennr/media_explorer_thumbnails/9b0618503935a55539516ae1266f99f0/detailed' alt='logo' className='cdlogo' />
         <div>
           <FontAwesomeIcon
             className={"menubar"}

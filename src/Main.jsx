@@ -18,7 +18,7 @@ const Main = () => {
                     </div>
                     <div className='cdimage'>
                    
-                        <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1200px-React_Logo_SVG.svg.png' alt='cimage' className='cimage'></img>
+                        <img src='https://res-console.cloudinary.com/dac8tennr/media_explorer_thumbnails/d8917bb448f36a6d8911e88a3f156f6f/detailed' alt='cimage' className='cimage'></img>
                     </div>
                 </div>
                 <div className='aboutdiv'>
@@ -28,10 +28,10 @@ const Main = () => {
                     <button onClick={() => navigate('projects')}>View Projects</button>
                 </div>
                 <div className="social">
-                    <a href="https://www.linkedin.com/in/pchintan71/"><img src='link.png' alt=""></img></a>
-                    <a href="https://www.instagram.com/chintanpatel71/"><img src='insta.jpeg' alt=""></img></a>
-                    <a href="https://www.behance.net/patelchintan3"><img src='behance.png' alt=""></img></a>
-                    <a href="https://github.com/chintu1851"><img src='git.png' alt=""></img></a>
+                    <a href="https://www.linkedin.com/in/pchintan71/"><img src='https://res-console.cloudinary.com/dac8tennr/media_explorer_thumbnails/85a37c6ec3b39344db28b6301305b5f5/detailed' alt=""></img></a>
+                    <a href="https://www.instagram.com/chintanpatel71/"><img src='https://res-console.cloudinary.com/dac8tennr/media_explorer_thumbnails/809127495ae9c342618e48cea266a963/detailed' alt=""></img></a>
+                    <a href="https://www.behance.net/patelchintan3"><img src='https://res-console.cloudinary.com/dac8tennr/media_explorer_thumbnails/be9ae37249d00a09dcbf25b5003c55cd/detailed' alt=""></img></a>
+                    <a href="https://github.com/chintu1851"><img src='https://res-console.cloudinary.com/dac8tennr/media_explorer_thumbnails/4ef1d3635becce0a42dd85bc7c5ad4be/detailed' alt=""></img></a>
                 </div>
 
             </div>
