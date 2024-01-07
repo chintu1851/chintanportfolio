@@ -18,7 +18,7 @@ const Main = () => {
                     </div>
                     <div className='cdimage'>
                    
-                        <img src='./public/cimage.JPG' alt='cimage' className='cimage'></img>
+                        <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1200px-React_Logo_SVG.svg.png' alt='cimage' className='cimage'></img>
                     </div>
                 </div>
                 <div className='aboutdiv'>
@@ -28,10 +28,10 @@ const Main = () => {
                     <button onClick={() => navigate('projects')}>View Projects</button>
                 </div>
                 <div className="social">
-                    <a href="https://www.linkedin.com/in/pchintan71/"><img src='./link.png' alt=""></img></a>
-                    <a href="https://www.instagram.com/chintanpatel71/"><img src='./insta.jpeg' alt=""></img></a>
-                    <a href="https://www.behance.net/patelchintan3"><img src='./behance.png' alt=""></img></a>
-                    <a href="https://github.com/chintu1851"><img src='./git.png' alt=""></img></a>
+                    <a href="https://www.linkedin.com/in/pchintan71/"><img src='link.png' alt=""></img></a>
+                    <a href="https://www.instagram.com/chintanpatel71/"><img src='insta.jpeg' alt=""></img></a>
+                    <a href="https://www.behance.net/patelchintan3"><img src='behance.png' alt=""></img></a>
+                    <a href="https://github.com/chintu1851"><img src='git.png' alt=""></img></a>
                 </div>
 
             </div>
