@@ -13,10 +13,10 @@ const Contact = () => {
             <h3> 160, Canon Jackson Dr,</h3>
             <h3>M6M 0B6,</h3>
             <h3>Toronto, ON, Canada.</h3>
-            <a href="https://www.linkedin.com/in/pchintan71/"><img src='./link.png' alt=""></img></a>
-            <a href="https://www.instagram.com/chintanpatel71/"><img src='./insta.jpeg' alt=""></img></a>
-            <a href="https://www.behance.net/patelchintan3"><img src='./behance.png' alt=""></img></a>
-            <a href="https://github.com/chintu1851"><img src='./git.png' alt=""></img></a>
+            <a href="https://www.linkedin.com/in/pchintan71/" target="_blank" rel="noreferrer"><img src='./link.png' alt=""></img></a>
+            <a href="https://www.instagram.com/chintanpatel71/" target="_blank" rel="noreferrer"><img src='./insta.jpeg' alt=""></img></a>
+            <a href="https://www.behance.net/patelchintan3" target="_blank" rel="noreferrer"><img src='./behance.png' alt=""></img></a>
+            <a href="https://github.com/chintu1851" target="_blank" rel="noreferrer"><img src='./git.png' alt=""></img></a>
           </div>
         </div>
         <div className='verticleline'></div>

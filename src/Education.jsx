@@ -60,7 +60,7 @@ const Education = () => {
                     </div>
                     <div className='educationdiv'>
                         <h2 style={{ color: "brown" }}>High School</h2>
-                        <h4 >Science in Mathematics</h4>
+                        <h4 >Mathematics (Major)</h4>
                         <h4 >Bright Junior Science College</h4>
                         <h4 >March 2017 - May 2018</h4>
                         <h4 >Modasa, Gujarat, India</h4>
