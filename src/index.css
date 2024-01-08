@@ -629,7 +629,7 @@ textarea {
   }
 
   .maincss {
-       display: flex;
+    display: flex;
     flex-direction: column;
     padding: 0px;
     margin-left: 40px;
@@ -637,10 +637,11 @@ textarea {
   }
 
   .cimage {
-    width: 100%;
-    height: 300px;
+    width: 90%;
+    height: 400px;
     border-radius: 20px;
     display: flex;
+    margin-left: 30px;
   }
 
   .cdimage {
@@ -659,7 +660,7 @@ textarea {
   }
 
   .aboutdiv {
-       display: flex;
+    display: flex;
     flex-direction: column;
     width: 300px;
     margin-left: 130px;
@@ -701,11 +702,13 @@ textarea {
     text-align: center;
 
   }
-.skillsh1 {
-  color: #01548b;
-  margin-top: 170px;
-  text-align: center;
-}
+
+  .skillsh1 {
+    color: #01548b;
+    margin-top: 170px;
+    text-align: center;
+  }
+
   .aboutm {
     display: flex;
     flex-direction: column;
@@ -749,7 +752,6 @@ textarea {
     background-color: #01548b;
     width: 87%;
     border-radius: 20px
-
   }
 
   input[type="text"],
@@ -788,7 +790,6 @@ textarea {
     align-items: center;
     justify-content: center;
     height: auto;
-    /* flex-wrap: wrap; */
     width: 70%;
     margin-left: 0px;
   }
