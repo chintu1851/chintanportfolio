@@ -17,7 +17,6 @@ const Main = () => {
                         </h1>
                     </div>
                     <div className='cdimage'>
-                   
                         <img src='https://res.cloudinary.com/dac8tennr/image/upload/v1704669152/wktrftzm1fre5fdvb8rb.jpg' alt='cimage' className='cimage'></img>
                     </div>
                 </div>

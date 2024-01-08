@@ -596,9 +596,8 @@ textarea {
   }
 
   .description {
-    width: 550px;
+    width: 350px;
     padding: 1em;
-    margin-left: 7em;
   }
 
   .positionfixed {
@@ -619,7 +618,7 @@ textarea {
     -webkit-text-fill-color: transparent;
     animation: blink 3s linear infinite;
     text-decoration: none;
-
+    width: auto;
   }
 
   .maintext {
@@ -630,9 +629,11 @@ textarea {
   }
 
   .maincss {
-    display: flex;
+       display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 0px;
+    margin-left: 40px;
+
   }
 
   .cimage {
@@ -643,8 +644,7 @@ textarea {
   }
 
   .cdimage {
-    padding: 50px;
-    margin-right: 200px;
+    padding: 20px 0px;
 
   }
 
@@ -653,17 +653,16 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: auto;
     background-color: white;
     padding: 1em;
+    width: auto;
   }
 
   .aboutdiv {
-    display: flex;
+       display: flex;
     flex-direction: column;
-    width: 200px;
-
+    width: 300px;
+    margin-left: 130px;
   }
 
   .aboutdiv p {
@@ -702,7 +701,11 @@ textarea {
     text-align: center;
 
   }
-
+.skillsh1 {
+  color: #01548b;
+  margin-top: 170px;
+  text-align: center;
+}
   .aboutm {
     display: flex;
     flex-direction: column;
@@ -744,8 +747,9 @@ textarea {
     transition: 0.3s;
     padding: 20px 20px;
     background-color: #01548b;
-    width: auto;
+    width: 87%;
     border-radius: 20px;
+    margin-top: -100px;
 
   }
 
@@ -754,7 +758,7 @@ textarea {
   input[type="text"],
   input[type="name"],
   textarea {
-    width: 300px;
+    width: 250px;
     padding: 0.9em;
     margin-bottom: 2em;
     font-size: medium;
