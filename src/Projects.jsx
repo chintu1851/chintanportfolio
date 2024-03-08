@@ -41,8 +41,13 @@ const Projects = () => {
           <a href='https://github.com/chintu1851/responsive-design_newyorker' target="_blank" rel="noreferrer"> <button>View On Github</button></a>
         </div>
         <div className='projectsection'>
+          <img src='js.png' alt=''></img>
+          <h3>Memory Flip Game</h3>
+          <a href='https://github.com/chintu1851/studio-final' target="_blank" rel="noreferrer"> <button>View On Github</button></a>
+        </div>
+        <div className='projectsection'>
           <img src='reactjs.png' alt=''></img>
-          <h3>Movie Ticket Booking (React Native)</h3>
+          <h3>Movie Ticket Booking</h3>
           <a href='https://github.com/chintu1851/Ticket_Booking-_ReactNative' target="_blank" rel="noreferrer"><button>View On Github</button></a>
         </div>
         <div className='projectsection'>

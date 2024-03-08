@@ -40,6 +40,10 @@ const Skills = () => {
           <img src='reactjs.png' alt=''></img>
         </div>
         <div className='skillsdiv'>
+          <h2>AngularJS</h2>
+          <img src='ajs.png' alt=''></img>
+        </div>
+        <div className='skillsdiv'>
           <h2>React Native</h2>
           <img src='native.png' alt=''></img>
         </div>

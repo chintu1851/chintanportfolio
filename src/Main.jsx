@@ -13,7 +13,7 @@ const Main = () => {
                         <h1 className='maintext'>Hi</h1>
                         <h1 className='maintext'>I am Chintan</h1>
                         <h1 className='maintexth1'>
-                            Web Developer
+                            Software Developer
                         </h1>
                     </div>
                     <div className='cdimage'>
