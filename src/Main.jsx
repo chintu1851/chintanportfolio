@@ -1,8 +1,5 @@
-import { useNavigate } from 'react-router-dom';
-
 const Main = () => {
 
-    const navigate = useNavigate()
     return (
         <div>
             <div className="maindiv">
@@ -25,7 +22,8 @@ const Main = () => {
                         A Software Developer, with expertise in developing web and mobile applications. I look forward to taking on the challenges of the dynamic world of software development and its applications. My passion is developing responsive designs and improving user interfaces. I'm inspired to explore limits and offer cutting-edge solutions by continuing to strive for excellence and innovation.
                         Let's collaborate and bring your digital vision to life!"
                     </p>
-                    <button onClick={() => navigate('projects')}>View Projects</button>
+                    {/* <button onClick={() => navigate('projects')}>View Projects</button> */}
+                     <a target="_blank" href='../public/Chintan Patel_Resume.pdf' style={{textDecoration:'none',color:'blue'}} download><button>Download Resume</button></a>
                 </div>
                 <div className="social">
                     <a href="https://www.linkedin.com/in/pchintan71/" target="_blank" rel="noreferrer"><img src='https://res.cloudinary.com/dac8tennr/image/upload/v1704668700/g1ilh2nutmhjxy2w2sla.png' alt=""></img></a>
