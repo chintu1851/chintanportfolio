@@ -1,5 +1,4 @@
 const Main = () => {
-
     return (
         <div>
             <div className="maindiv">
@@ -22,8 +21,10 @@ const Main = () => {
                         A Software Developer, with expertise in developing web and mobile applications. I look forward to taking on the challenges of the dynamic world of software development and its applications. My passion is developing responsive designs and improving user interfaces. I'm inspired to explore limits and offer cutting-edge solutions by continuing to strive for excellence and innovation.
                         Let's collaborate and bring your digital vision to life!"
                     </p>
-                    {/* <button onClick={() => navigate('projects')}>View Projects</button> */}
-                     <a target="_blank" href='../public/Chintan Patel_Resume.pdf' style={{textDecoration:'none',color:'blue'}} download><button>Download Resume</button></a>
+                    {/* Use anchor tag with download attribute for triggering the download */}
+                    <a target="_blank" href='https://drive.google.com/file/d/1zDqOYcTiqeZ4kYBRG1R8iDAxE9MVfo_R/view?usp=sharing' download style={{textDecoration:'none',color:'blue'}}>
+                        <button>Download Resume</button>
+                    </a>
                 </div>
                 <div className="social">
                     <a href="https://www.linkedin.com/in/pchintan71/" target="_blank" rel="noreferrer"><img src='https://res.cloudinary.com/dac8tennr/image/upload/v1704668700/g1ilh2nutmhjxy2w2sla.png' alt=""></img></a>
@@ -31,10 +32,9 @@ const Main = () => {
                     <a href="https://www.behance.net/patelchintan3" target="_blank" rel="noreferrer"><img src='https://res.cloudinary.com/dac8tennr/image/upload/v1704668548/caadexzviwqm5sjjuplv.png' alt=""></img></a>
                     <a href="https://github.com/chintu1851" target="_blank" rel="noreferrer"><img src='https://res.cloudinary.com/dac8tennr/image/upload/v1704668688/vgvedys41106xms5f69v.png' alt=""></img></a>
                 </div>
-
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Main
+export default Main;
