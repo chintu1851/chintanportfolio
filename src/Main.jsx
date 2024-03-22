@@ -22,7 +22,7 @@ const Main = () => {
                         Let's collaborate and bring your digital vision to life!"
                     </p>
                     {/* Use anchor tag with download attribute for triggering the download */}
-                    <a target="_blank" href='https://drive.google.com/file/d/1zDqOYcTiqeZ4kYBRG1R8iDAxE9MVfo_R/view?usp=sharing' download style={{textDecoration:'none',color:'blue'}}>
+                    <a target="_blank" href='https://drive.google.com/file/d/1pR9AJ8c6BTxlAEl63muEVf_f5z755CRl/view?usp=sharing' download style={{textDecoration:'none',color:'blue'}}>
                         <button>Download Resume</button>
                     </a>
                 </div>
