@@ -18,8 +18,7 @@ const Main = () => {
                 </div>
                 <div className='aboutdiv'>
                     <p className='aboutcd'>
-                        A Software Developer, with expertise in developing web and mobile applications. I look forward to taking on the challenges of the dynamic world of software development and its applications. My passion is developing responsive designs and improving user interfaces. I'm inspired to explore limits and offer cutting-edge solutions by continuing to strive for excellence and innovation.
-                        Let's collaborate and bring your digital vision to life!"
+                       Empowering digital experiences through seamless web and mobile applications is my forte as a Software Developer. With a penchant for crafting responsive designs and refining user interfaces, I'm driven by the ever-evolving landscape of software development. My passion for innovation fuels my desire to explore new boundaries and deliver cutting-edge solutions. Let's join forces to transform your digital vision into reality, blending expertise in development with intuitive UI/UX design.
                     </p>
                     {/* Use anchor tag with download attribute for triggering the download */}
                     <a target="_blank" href='https://drive.google.com/file/d/1pR9AJ8c6BTxlAEl63muEVf_f5z755CRl/view?usp=sharing' download style={{textDecoration:'none',color:'blue'}}>
