@@ -14,7 +14,7 @@ const About = () => {
                 </div>
                 <div className='aboutme'>
                     <h1 style={{textAlign:'center'}}>About Me</h1>
-                    <p>Hey, I'm Chintan, a Full Stack Developer specializing in Web and Mobile App Development. I'm all about turning user needs into visually appealing and easy-to-use applications. With a focus on intuitive UI/UX design, I stay up-to-date with the latest trends to exceed client expectations. Let's create solutions that not only meet goals but also captivate users.</p>
+                    <p>Hey there! I'm Chintan, a frontend developer with a passion for UI/UX design. I specialize in crafting seamless web and mobile applications that prioritize user experience. With a sharp eye for detail and a commitment to staying updated on design trends, I aim to exceed client expectations. Let's work together to create visually appealing and user-friendly solutions that leave a lasting impression.</p>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ const Main = () => {
                         <h1 className='maintext'>Hi</h1>
                         <h1 className='maintext'>I am Chintan</h1>
                         <h1 className='maintexth1'>
-                            Software Developer
+                            Frontend Developer
                         </h1>
                     </div>
                     <div className='cdimage'>
@@ -18,10 +18,10 @@ const Main = () => {
                 </div>
                 <div className='aboutdiv'>
                     <p className='aboutcd'>
-                       Empowering digital experiences through seamless web and mobile applications is my forte as a Software Developer. With a penchant for crafting responsive designs and refining user interfaces, I'm driven by the ever-evolving landscape of software development. My passion for innovation fuels my desire to explore new boundaries and deliver cutting-edge solutions. Let's join forces to transform your digital vision into reality, blending expertise in development with intuitive UI/UX design.
+                        Specializing in frontend development and UI/UX design, I craft seamless web and mobile experiences. Passionate about innovation, I blend expertise in development and intuitive design to bring your digital vision to life.
                     </p>
                     {/* Use anchor tag with download attribute for triggering the download */}
-                    <a target="_blank" href='https://drive.google.com/file/d/1pR9AJ8c6BTxlAEl63muEVf_f5z755CRl/view?usp=sharing' download style={{textDecoration:'none',color:'blue'}}>
+                    <a target="_blank" href='https://drive.google.com/file/d/1pR9AJ8c6BTxlAEl63muEVf_f5z755CRl/view?usp=sharing' download style={{ textDecoration: 'none', color: 'blue' }}>
                         <button>Download Resume</button>
                     </a>
                 </div>

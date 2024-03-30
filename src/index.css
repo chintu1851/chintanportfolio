@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 .mainheader {
@@ -654,7 +655,7 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    
     padding: 1em;
     width: auto;
   }
