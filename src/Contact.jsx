@@ -11,7 +11,7 @@ const Contact = () => {
             <h2 style={{ color: '#01548b', fontSize: '25px' }}>Get in Touch</h2>
             <h3 style={{ color: 'brown', fontSize: '19px' }}>patelchintan1851@gmail.com </h3>
             <h3> 160, Canon Jackson Dr,</h3>
-            <h3>M6M 0B6,</h3>
+            <h3>M6M0B6,</h3>
             <h3>Toronto, ON, Canada.</h3>
             <a href="https://www.linkedin.com/in/pchintan71/"><img src='./link.png' alt=""></img></a>
             <a href="https://www.instagram.com/chintanpatel71/"><img src='./insta.jpeg' alt=""></img></a>
